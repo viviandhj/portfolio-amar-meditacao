@@ -1,0 +1,388 @@
+header {
+    background: #fdcec1;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header-img {
+    width: 20%;
+    margin: 10px 20px;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #999999;
+}
+
+
+.caixa1 {
+    width: 940px;
+    margin: 0  auto;
+    padding: 60px 0 60px 0;
+    color: #999999;
+    align-items: center;
+}
+
+
+ul {
+    text-align: center;
+    list-style: inside;
+}
+
+.meditacoes li {
+    display: inline-block;
+    text-align: center;
+    width: 22%;
+    height: 300px;
+    vertical-align: top;
+    margin: 30px 15px;
+    padding: 25px 15px; 
+    box-sizing: border-box;
+    border: 2px solid #fdd6d2;
+    border-radius: 15px;
+}
+
+.meditacoes li:hover {
+    border-color: rgb(247, 166, 166);
+}
+
+.meditacoes li:active {
+    border-color: #BBBBBB;
+}
+
+.meditacoes li:hover h2 {
+    font-size: 20px;
+}
+
+.meditacoes h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul img {
+    margin: 20px 0;
+    width: 75%;
+}
+
+.meditacao-descricao {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: #fdcec1;
+    padding: 30px 0;
+}
+
+footer img {
+    width: 8%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+ /* Live */ 
+
+.container-live {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.container-live p, h2 {
+    color:  rgb(245, 169, 152);
+}
+
+.container-live h2 {
+    font-size: 32px;
+    margin: 20px 0 40px 0;
+}
+
+.container-live p {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.container-live a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* fim Live */ 
+
+main {
+    width: 940px;
+    margin: 0 auto; 
+    /* color: #444444;*/ 
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 10px 25px;
+}
+
+fieldset {
+    margin: 20px 0;
+}
+
+fieldset input, label {
+    display: inline;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 20%;
+    padding: 10px 0;
+}
+
+table {
+    margin: 20px 0 40px;;
+}
+
+thead {
+    background: #888888;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.meditation-list {
+    margin: 105px 80px;
+    padding: 30px;
+    width: 432;
+    height: 332;
+    background: #fdcec1;
+}
+
+
+.meditation-list h2 {
+    text-align: center;
+    color: #888888;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.meditation-list form {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.input-button {
+    border: none;
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 5px 6px;
+    color: #666666;
+   
+}
+
+.input-text {
+    border: 1px solid #888888;
+    border-radius: 2px;
+    padding: 6px 25px;
+    
+}
+
+.list {
+    color: #666666;
+    padding:3px;
+    font-size: 18px;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.task {
+    font-size: 19px;
+    color: #888888;
+    margin: 10px;
+    list-style-type: none;
+    background: #d4c5c588;
+    padding: 5px 0;
+
+}
+
+.check-button {
+    margin-left: 10px;
+    color: #666666;
+    border-color: #FFFFFF;
+}
+
+.task {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #666666;
+    display: flex;
+
+    margin-bottom: 0.5rem;
+    padding: 1rem 3rem;
+}
+  
+.check-button, .delete-button {
+    color: #666666;
+    border: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+  
+  
+.task.done .check-button {
+    background-color: #46494C;
+    color: #F6F1D1;
+}
+  
+.check-icon {
+    display: block; 
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+  
+.task.done .check-icon {
+    background-color: #0B2027;
+}
+  
+.content {
+    margin: 0;
+}
+  
+.task.done .content {
+    text-decoration: line-through;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .header-img {
+        margin: 20px 0 0 0;
+    }
+
+    nav {
+        position: relative;
+        top: 0;
+        right: 0;
+        padding: 20px;
+    }
+
+    .caixa {
+        width: 100%;
+        text-align: center;
+    }
+    
+    main {
+        width: 100%;
+    }
+
+    .caixa1 {
+        width: 100%;
+    }
+
+    .meditacoes li {
+        display: inline-block;
+        text-align: center;
+        width: 40%;
+        height: 256px;
+        vertical-align: top;
+        margin: 30px 6px;
+        padding: 16px 10px;
+        box-sizing: border-box;
+        border: 2px solid #fdd6d2;
+        border-radius: 15px;
+    }
+
+    .meditacoes h2 {
+        word-break: break-word;
+    }
+    
+    
+    /* Lista */ 
+
+    .meditation-list {
+        margin: 176px 16px;
+    }
+    
+    .input-text {
+        margin: 0 0 20px;
+    }
+
+    /* Contato */ 
+
+    form {
+        margin: 40px 20px;
+    }
+
+    .input-padrao {
+        width: 80%;
+    }
+
+    table {
+        margin: 20px 20px 40px;
+    }
+
+    .enviar {
+        width: 33%;
+    }
+
+
+}

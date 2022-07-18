@@ -1,0 +1,175 @@
+header {
+    background: #fdcec1;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header-img {
+    width: 20%;
+    margin: 0 20px;
+}
+
+nav {
+    position: absolute;
+    top: 96px;
+    right: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #999999;
+}
+
+h1 {
+    margin: 15px 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.border-header {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.main-image {
+    width: 100%
+}
+
+body {
+    background:#fdcec1;;
+}
+
+.centered-text {
+    text-align: center;
+    margin: 50px 0;
+}
+
+h2 {
+    margin: 30px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.sq-midle {
+    padding: 30px;
+    color: rgb(245, 169, 152); /* rgb(245, 169, 152)) */
+    background: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(245, 169, 152);
+}
+
+.text-description {
+    font-size: 20px;
+    margin: 35px 75px;
+    line-height: 1.5
+}
+
+em {
+    font-weight: bold;
+}
+
+.text-table {
+    font-size: 20px;
+}
+
+
+.sq-midle ul {
+    display: block;
+    padding: 10px 30%;
+    margin-bottom: 2px; 
+    line-height: 1.5
+}
+
+.sq-midle ul h4 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sq-midle ul a {   
+    color: rgb(245, 169, 152);
+}
+
+.sq-midle ul li {
+    text-align: center;
+}
+
+.sq-midle ul a:hover {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(247, 139, 139);
+}
+
+footer {
+    text-align: center;
+    background: #fdcec1;
+    padding: 30px 0;
+}
+
+footer img {
+    width: 8%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    body h1 {
+        font-size: 36px;
+    }
+
+    nav {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: 20px;
+    }
+
+    .caixa {
+        width: 100%;
+        text-align: center;
+    }
+    
+    main h2 {
+        font-size: 28px;
+    }
+
+    main h3 {
+        font-size: 24px;
+    }
+
+    .text-description {
+        margin: 35px 10px;
+    }
+
+    .sq-midle ul {
+        padding: 10px 20%;
+}
