@@ -4,6 +4,7 @@ header {
 
 .caixa {
     position: relative;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -37,6 +38,7 @@ nav a:hover {
 
 
 .caixa1 {
+    width: 940px;
     margin: 0  auto;
     padding: 60px 0 60px 0;
     color: #999999;
@@ -133,12 +135,13 @@ footer img {
 /* fim Live */ 
 
 main {
+    width: 940px;
     margin: 0 auto; 
     /* color: #444444;*/ 
 }
 
 form {
-    margin: 40px;
+    margin: 40px 0;
 }
 
 form label {
@@ -178,7 +181,7 @@ fieldset input, label {
 }
 
 table {
-    margin: 40px;
+    margin: 20px 0 40px;;
 }
 
 thead {
@@ -361,12 +364,6 @@ li {
     
     .input-text {
         margin: 0 0 20px;
-    }
-
-    /*Live*/
-
-    .img-live {
-        width: 230px;
     }
 
     /* Contato */ 
